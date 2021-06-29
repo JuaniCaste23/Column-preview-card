@@ -19,15 +19,16 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: auto;
     height: 100%;
 }
 
 .card-container{
     display: flex;
+    flex-direction: column;
     width: 75%;
     height: auto;
-    flex-direction: column;
     padding: 10%;
     margin: auto;
 }
@@ -124,8 +125,7 @@ main {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 11px; 
     text-align: center;
-    position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width:100%;
     bottom: 0;
     z-index: 99;
@@ -148,7 +148,11 @@ main {
         flex-direction: row;
         height: auto;
         width: auto;
-        padding: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-top: 0;
+        padding-bottom: 0;
+        min-width: 900px;
     }
 
     .card-container__element_1{
@@ -180,6 +184,10 @@ main {
     .text-box__button{
         font-size: 1.3rem;
         margin-top: 50px;
+    }
+
+    .attribution{
+        position: absolute;
     }
     
 }
