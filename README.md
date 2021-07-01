@@ -1,4 +1,4 @@
-# Column-preview-card_by_FrontEnd-Mentor
+# Column-preview-card
 
 Desafio de FrontEnd Mentor hecho con HTML y CSS + FLEX. Esta hecho con un diseño Responsive.
 
