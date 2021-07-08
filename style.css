@@ -91,7 +91,7 @@ body {
     margin-bottom: 9px;
 }
 
-.text-box_button a{
+button a{
     text-decoration: none;
     padding: auto;
 }
