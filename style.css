@@ -82,7 +82,7 @@ body {
     border: none;
     border-radius: 20px 20px 20px 20px;
     font-family: 'Lexend Deca', sans-serif;
-    font-size:1rem;
+    font-size:1.2rem;
     background-color: hsl(0, 0%, 95%);
     border: 2px solid hsl(0, 0%, 95%);
     padding: 8px 12px;
@@ -93,7 +93,6 @@ body {
 
 button a{
     text-decoration: none;
-    padding: 10px;
 }
 
 .color_by_button_sedans {
