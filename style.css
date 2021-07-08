@@ -91,10 +91,6 @@ body {
     margin-bottom: 9px;
 }
 
-button a{
-    text-decoration: none;
-}
-
 .color_by_button_sedans {
     color: hsl(31, 77%, 52%);
 }
